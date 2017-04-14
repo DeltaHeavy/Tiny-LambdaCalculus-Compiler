@@ -1,0 +1,8 @@
+M = id
+  | (M M)
+  | (\ (id) M)
+  | (+ M M)
+  | (* M M)
+  | number # including negative
+  | (ifleq0 M M M)
+  | (println M) 
